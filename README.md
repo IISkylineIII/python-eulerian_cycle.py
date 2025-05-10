@@ -23,6 +23,7 @@ The input is hardcoded in the script as a list of strings. Each string defines a
 "node: neighbor1 neighbor2 ..."
 
 ### Example:
+```
 
 input_data = [
     "0: 3",
@@ -40,7 +41,9 @@ input_data = [
 ### Running the Script
 When you run the script, the Eulerian cycle will be printed as a space-separated sequence of node IDs.
 python eulerian_cycle.py
-Example output:
+
+```
+### Example output:
 
 9 8 7 6 5 4 3 2 1 0 3 2 6 8 7 9 6 5 4 2 1 0
 
